@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(travel.avif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position:center;
+
+}
+
+
+header{
+  color: #fff;
+  position: sticky;
+  margin-left: 0px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+
+
+.navigation a{
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.parent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+  
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+  height: 420px;
+  width: 390px;
+  background: transparent;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 20px;
+  
+}
+
+
+
+
+.parent .container .bar .head h2{ 
+  font-size: 52px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.parent .container .bar .head p{
+  font-size: 32px;
+  text-align: center;
+  
+}
+
+.parent .container  .info .input-box{
+  position: relative;
+  width: 340px;
+  height: 50px;
+  border-bottom: 2px solid #000;
+  margin: 30px 0px;
+
+}
+
+.input-box input{
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  padding-right: 20px;
+}
+
+.input-box label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 20px;
+  font-weight: 500;
+  pointer-events: none;
+  transition: .5s ease;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+  top: -5px;
+}
+
+.input-box .icon{
+  position: absolute;
+  top: 13px;
+  right: 0;
+  font-size: 20px;
+}
+
+.parent .container .rem-for{
+  font-size: 20px;
+  font-weight: 500;
+  margin: -15px 0px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rem-for label input{
+  accent-color:  #e4e4e4;
+  margin-right: 3px;
+}
+
+.rem-for a{
+  color:black;
+  text-decoration: none;
+}
+
+.rem-for a:hover{
+  text-decoration: underline;
+}
+
+.btn{
+  width: 100%;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #fff;
+  font-weight: 500;
+}
+
+.parent .container .sign-up{
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.parent .container .sign-up p a{
+  text-decoration: none;
+  color: white;
+}
+
+.parent .container .sign-up p a:hover{
+  text-decoration: underline;
+}
+
+footer{
+  
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+
+
+
+
